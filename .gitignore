@@ -1,0 +1,29 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# important for installation!! you may remove it later
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+
+#CURRENT APPLICATION
+/web
+/public_html
+/application
+/app
