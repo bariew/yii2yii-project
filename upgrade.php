@@ -1,7 +1,7 @@
 <?php return [
-    'appRoot' => '/var/www/footinho/app',
-    'appConfig' => '/var/www/footinho/app/config/main.php',
-    'content' => ['/var/www/footinho' => [
+    'appRoot' => '/var/www/webdin/application',
+    'appConfig' => '/var/www/webdin/application/config/main.php',
+    'content' => ['/var/www/webdin' => [
         'app' => [
             'yiic.php' => 'Yiic',
             'commands' => 'Command',
@@ -39,5 +39,7 @@
         '*' => true,
         //tmp
         //'*' => false
-    ]]
+    ]],
+    'replacements' => [],
+    'callbackReplacements' => [],
 ];
